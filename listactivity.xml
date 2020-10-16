@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="Login"
+            android:background="@drawable/footer1"
+            android:layout_marginStart="20dp"
+            />
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="SignUp"
+            android:background="@drawable/footer1"
+            android:layout_marginStart="20dp"
+            />
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="Profile"
+            android:background="@drawable/footer1"
+            android:layout_marginStart="20dp"
+            />
+        <Button
+            android:id="@+id/list"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="List"
+            android:background="@drawable/footer1"
+            android:layout_marginStart="20dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lv_contact"/>
+    </LinearLayout>
+</LinearLayout>
